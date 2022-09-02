@@ -1,1 +1,427 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+/*===== Colores =====*/
+:root {
+  --first-color: #eb8166;
+  --second-color: #343a40;
+  --third-color: #fff;
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+}
+
+/*===== Fuente y tipografia =====*/
+:root {
+  --body-font: "Montserrat", sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/* Margenes */
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+  --mt-6: 2rem;
+  --mt-7: 5rem;
+}
+
+/* BASE */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #e9ecef !important;
+}
+
+body {
+  background-color: var(--bg-black-900);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--h2-font-size);
+  color: var(--second-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}  */
+
+.sectionOne {
+  margin-top: var(--mt-6);
+}
+
+/* CLASS CSS  */
+/* .section-title{
+    position: relative!important;
+    font-size: var(--h2-font-size)!important;
+    color: var(--first-color)!important;
+    margin-top: var(--mb-2)!important;
+    margin-bottom: var(--mb-4)!important;
+    text-align: center!important;
+  }
+  .section-title::after{
+    position: absolute!important;
+    content: ""!important;
+    width: 64px!important;
+    height: 0.18rem!important;
+    left: 0!important;
+    right: 0!important;
+    margin: auto!important;
+    top: 2rem!important;
+    background-color: orange!important;
+  } */
+/* .section{
+    padding-top: 3rem!important;
+    padding-bottom: 2rem!important;
+  } */
+*/
+
+/*===== HOME =====*/
+.home {
+  /* height: calc(100vh - 3rem); */
+  row-gap: 1rem;
+}
+
+.home__data {
+  align-self: center;
+}
+
+.home__title {
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-5);
+}
+
+.home__title-color {
+  color: var(--first-color);
+}
+
+.home__social {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__social-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+
+.home__social-icon:hover {
+  color: var(--first-color);
+}
+
+.home__img {
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  width: 295px;
+}
+
+i {
+  font-size: var(--h2-font-size);
+}
+
+img.banner {
+  margin-top: 1vh;
+  max-height: 100px;
+  border-radius: 270px !important;
+}
+
+.navbar {
+  background-color: var(--bg-black-900);
+}
+
+i {
+  color: var(--text-black-700);
+}
+
+#about h3 > i {
+  font-size: 1rem;
+  color: #337ff1;
+}
+
+i.redes:hover {
+  color: #337ff1;
+}
+
+/* About START*/
+.about .about-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .about-text {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .about-text h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.about .about-content .about-text h3 span {
+  color: #337ff1;
+}
+
+.about .about-content .about-text p {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+}
+
+.about .about-content .personal-info {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 40px;
+}
+
+.about .about-content .personal-info .info-item {
+  /* flex: 0 0 50%; */
+  max-width: 100%;
+}
+
+.about .about-content .personal-info .info-item p {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+}
+
+.about .about-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.about .about-content .personal-info .buttons {
+  margin-top: 30px;
+}
+
+.about .about-content .personal-info .buttons .btn {
+  margin-top: 10px;
+}
+
+.about .about-content .skills {
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin-top: 40px;
+}
+
+.about .about-content .skills .skill-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .skills .skill-item h5 {
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+}
+
+.about .about-content .skills .skill-item .progress {
+  background: var(--bg-black-50);
+  height: 7px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.about .about-content .skills .skill-item {
+  margin-bottom: 25px;
+}
+
+.about .about-content .skills .skill-item .progress-in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #337ff1;
+  border-bottom: 1px solid #0a4fb7;
+  border-right: 1px solid #0a4fb7;
+}
+
+.about .about-content .skills .skill-item .skill-percent {
+  position: absolute;
+  right: 0;
+  color: crimson;
+  top: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.about .about-content .education,
+.about .about-content .experience {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+.about .about-content h3.tittle {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.about .about-content .timeline-box {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .timeline {
+  background-color: var(--bg-black-100);
+  padding: 30px 15px;
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  width: 100%;
+
+  position: relative;
+}
+
+.about .about-content .timeline .timeline-item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+
+.about .about-content .timeline .timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.about .about-content .timeline .timeline-item:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
+  background-color: #337ff1;
+}
+
+.about .about-content .timeline .circle-dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #337ff1;
+}
+
+.about .about-content .timeline .timeline-date {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--text-black-700);
+}
+
+.about .about-content .timeline .timeline-date .fa {
+  margin-right: 5px;
+}
+
+.about .about-content .timeline .timeline-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: var(--text-black-900);
+}
+
+.about .about-content .timeline .timeline-text {
+  line-height: 25px;
+  font-size: 16px;
+  text-align: justify;
+  color: var(--text-black-700);
+}
+
+/* About END*/
+
+section.sectionTrhee {
+  margin-top: var(--mt-7);
+}
+
+.btns {
+  background-color: #337ff1;
+}
+.btns:hover {
+  background-color: #0a4fb7;
+}
+
+img.expCiu {
+  width: 30% !important;
+}
+
+@media only screen and (max-width: 767px) {
+  img.banner {
+    display: none;
+  }
+
+  .timeline-item {
+    display: block !important;
+  }
+
+  .education {
+    display: inline !important;
+  }
+
+  .experience {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .info-item {
+    display: block !important;
+  }
+}
