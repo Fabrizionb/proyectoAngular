@@ -1,0 +1,75 @@
+.btnLogin {
+  background-color: #504e70;
+  font-weight: bold;
+  height: 25px;
+  border: 1px solid #504e70;
+  margin-top: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnLogin:hover {
+  background-color: #337ff1;
+  border: 1px solid #337ff1;
+}
+
+.aLogin {
+  color: #fff !important;
+}
+
+.nameNavbar {
+  font-size: 1.5rem;
+}
+
+.imgProfile {
+  position: absolute;
+  margin-top: -13vh;
+  margin-left: 1vh;
+}
+
+.profileData {
+  margin-top: 16vh;
+  position: relative;
+  padding: 5px;
+}
+
+.btnData {
+  background-color: #504e70;
+  font-weight: bold;
+  height: 25px;
+  border: 1px solid #504e70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.btnData:hover {
+  background-color: #337ff1;
+  border: 1px solid #337ff1;
+}
+
+.bg-image {
+  border-radius: 3px 3px 0px 0px;
+  object-fit: cover;
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+  border-radius: 5px;
+  border: 1px solid black;
+  max-width: 1399px !important;
+}
+
+.contactData {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.iconProfile {
+  margin-top: 22vh !important;
+  position: absolute;
+  padding: 5px;
+}
