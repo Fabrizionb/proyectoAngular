@@ -1,0 +1,124 @@
+{
+    "name": "Fabrizio Bertolo",
+    "backImage": "../../../assets/img/banerfin.gif",
+    "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662219912/Proyecto%20Argentina%20Programa%20Angular/Sin-t%C3%ADtulo-1_r9cygy.png",
+    "title": "Full Stack Developer Jr.",
+    "location": "Buenos Aires, Argentina",
+    "experience": [
+        {
+            "position": "Administrativo Financiero - Presidencia",
+            "company": "Acumar, Gobierno de Buenos Aires",
+            "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135646/Proyecto%20Argentina%20Programa%20Angular/acumar_kh6s2d.png",
+            "dateIn": "dateIn",
+            "dateOut": "dateOut",
+            "tasks": ""
+        },
+        {
+            "position": "Administrativo Financiero - Proyectos Especiales",
+            "company": "Acumar, Gobierno de Buenos Aires",
+            "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135646/Proyecto%20Argentina%20Programa%20Angular/acumar_kh6s2d.png",
+            "dateIn": "2018",
+            "dateOut": "2020",
+            "tasks": "Ejecución administrativa de proyectos tecnológicos. Control de saldos y partida presupuestaria. Compra de equipamiento informático y soporte al área."
+        },
+        {
+            "position": "Analista De RRHH - Subsecretaría De Hábitat E Inclusión",
+            "company": "Gobierno de la Ciudad de Buenos Aires",
+            "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135647/Proyecto%20Argentina%20Programa%20Angular/gobciu_nvlqvt.png",
+            "dateIn": "2017",
+            "dateOut": "2018",
+            "tasks": "Administración fileserver y backup, asignación de roles, altas y bajas de usuario. Mantenimiento de base de datos y administración de servidor."
+        },
+        {
+            "position": "Coordinador IT - Ministerio De Medio Ambiente",
+            "company": "Gobierno de la Ciudad de Buenos Aires",
+            "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135647/Proyecto%20Argentina%20Programa%20Angular/gobciu_nvlqvt.png",
+            "dateIn": "2011",
+            "dateOut": "2016",
+            "tasks": "Coordinación del equipo HelpDesk, mantenimiento del parque informático, instalación y mantenimiento del cableado estructurado, gestión de compras."
+        }
+    ],
+    "education": [
+        {
+            "name": "Argentina.gob.ar",
+            "img": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662136172/Proyecto%20Argentina%20Programa%20Angular/gob_x0mswy.png",
+            "certification": "En progreso",
+            "title": "Desarrollo Full Stack",
+            "dateIn": "2022",
+            "dateOut": "2023",
+            "expedition": "En progreso"
+        },
+        {
+            "name": "CoderHouse",
+            "img": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135647/Proyecto%20Argentina%20Programa%20Angular/coder_rrvdyg.png",
+            "certification": "En progreso",
+            "title": "React Js",
+            "dateIn": "2022",
+            "dateOut": "2022",
+            "expedition": "En progreso"
+        },
+        {
+            "name": "CoderHouse",
+            "img": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135647/Proyecto%20Argentina%20Programa%20Angular/coder_rrvdyg.png",
+            "certification": "https://www.coderhouse.com/certificados/62c88323985f29001951a356",
+            "title": "Javascript",
+            "dateIn": "2022",
+            "dateOut": "2022",
+            "expedition": ""
+        },
+        {
+            "name": "CoderHouse",
+            "img": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135647/Proyecto%20Argentina%20Programa%20Angular/coder_rrvdyg.png",
+            "certification": "https://latam.coderhouse.com/certificados/6253912ebdf7960026cf9ce1",
+            "title": "Desarrollo Web",
+            "dateIn": "2022",
+            "dateOut": "2022",
+            "expedition": ""
+        }
+    ],
+    "about": {
+        "text": "Soy una persona curiosa y con una gran motivación, apasionado por el desarrollo web y la tecnología. Desde muy pequeño, mi devoción por la tecnología y los videojuegos me llevó a indagar sobre la programación y sus lenguajes."
+    },
+    "aptitudes": [
+        {
+            "name": "Html",
+            "amount": 100
+        },
+        {
+            "name": "Css",
+            "amount": 85
+        },
+        {
+            "name": "Bootstrap",
+            "amount": 75
+        },
+        {
+            "name": "JavaScript",
+            "amount": 50
+        },
+        {
+            "name": "Sass",
+            "amount": 35
+        },
+        {
+            "name": "React Js",
+            "amount": 50
+        },
+        {
+            "name": "Angular",
+            "amount": 50
+        },
+        {
+            "name": "Firebase",
+            "amount": 35
+        },
+        {
+            "name": "Github",
+            "amount": 60
+        },
+        {
+            "name": "TypeScript",
+            "amount": 25
+        }
+    ]
+}

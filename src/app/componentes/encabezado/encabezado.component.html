@@ -45,29 +45,22 @@
   <!-- Navbar -->
   <div class="header">
     <!-- Background image -->
-    <div
-      class="bg-image"
-      style="
-        background-image: url('../../../assets/img/banerfin.gif');
-
-        height: 200px;
-      "
-    ></div>
+    <div class="bg-image text-center" style="height: 200px">
+      <img style="height: 200px" [src]="miPortfolio.backImage" />
+    </div>
     <!-- Background image -->
     <!-- Profile image -->
     <div class="container imgProfile">
-      <img
-        src="https://res.cloudinary.com/dm01fzgtk/image/upload/v1662219912/Proyecto%20Argentina%20Programa%20Angular/Sin-t%C3%ADtulo-1_r9cygy.png"
-      />
+      <img [src]="miPortfolio.image" />
       <i class="iconPencil bi bi-pencil-square iconProfile"></i>
     </div>
     <!-- Profile image -->
     <!-- Profile Data -->
     <div class="profileData">
       <div>
-        <h3>Bertolo Fabrizio</h3>
-        <p>Full Stack Developer Jr.</p>
-        <p>Buenos Aires (Argentina). Informacion de Contacto</p>
+        <h3>{{ miPortfolio.name }}</h3>
+        <p>{{ miPortfolio.title }}</p>
+        <p>{{ miPortfolio.location }}. Informacion de Contacto</p>
       </div>
 
       <div class="d-flex">

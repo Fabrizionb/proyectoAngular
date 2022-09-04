@@ -10,6 +10,7 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { MasInfoComponent } from './componentes/mas-info/mas-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MasInfoComponent } from './componentes/mas-info/mas-info.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
