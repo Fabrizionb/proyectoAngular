@@ -1,23 +1,22 @@
-.experiencia {
+/* .experiencia {
   border-radius: 5px;
   padding: 5px;
   min-width: 100%;
 }
 .timeline-item {
-  border-bottom: 1px solid gray;
-  margin-bottom: 15px;
+    margin-bottom: 15px;
   margin-top: 15px;
 }
-
+*/
 .education {
-  border-radius: 5px;
-  border: 1px solid black;
+  flex:1;
+}
+ 
+ .experiencie {
+  flex:1;
+} 
+.experiencia{
+  display: flex;
 }
 
-.experience {
-  margin-left: 12vh;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-
+ 

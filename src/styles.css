@@ -63,7 +63,7 @@ html {
 }
 
 body {
-  background-color: var(--bg-black-900);
+  background-color: #f5f5f5;
   font-family: "Montserrat", sans-serif!important;
 }
 
@@ -151,7 +151,7 @@ i {
   color: var(--text-black-700);
 }
 
-#about h3 > i {
+ h3 > i {
   font-size: 1rem;
   color: #337ff1;
 }
@@ -161,45 +161,42 @@ i.redes:hover {
 }
 
 /* About START*/
-.about .about-content {
+
+
+ .about-text {
   flex: 0 0 100%;
   max-width: 100%;
 }
 
-.about .about-content .about-text {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
-.about .about-content .about-text h3 {
+  .about-text h3 {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 700;
   color: var(--text-black-900);
 }
 
-.about .about-content .about-text h3 span {
+  .about-text h3 span {
   color: #337ff1;
 }
 
-.about .about-content .about-text p {
+  .about-text p {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
 }
 
-.about .about-content .personal-info {
+ .personal-info {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 40px;
 }
 
-.about .about-content .personal-info .info-item {
+.personal-info .info-item {
   /* flex: 0 0 50%; */
   max-width: 100%;
 }
 
-.about .about-content .personal-info .info-item p {
+ .personal-info .info-item p {
   font-weight: 600;
   padding: 10px 0;
   font-size: 16px;
@@ -207,33 +204,34 @@ i.redes:hover {
   border-bottom: 1px solid var(--bg-black-50);
 }
 
-.about .about-content .personal-info .info-item p span {
+.personal-info p span {
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 4px;
   display: inline-block;
 }
 
-.about .about-content .personal-info .buttons {
+ .personal-info .buttons {
   margin-top: 30px;
 }
 
-.about .about-content .personal-info .buttons .btn {
+.buttons .btn {
   margin-top: 10px;
 }
 
-.about .about-content .skills {
+ .skills {
   flex: 0 0 40%;
   max-width: 40%;
   margin-top: 40px;
 }
 
-.about .about-content .skills .skill-item {
+.skill-item {
   flex: 0 0 100%;
   max-width: 100%;
+  
 }
 
-.about .about-content .skills .skill-item h5 {
+.skill-item h5 {
   line-height: 40px;
   font-weight: 600;
   font-size: 16px;
@@ -241,7 +239,7 @@ i.redes:hover {
   text-transform: capitalize;
 }
 
-.about .about-content .skills .skill-item .progress {
+.skill-item .progress {
   background: var(--bg-black-50);
   height: 7px;
   border-radius: 4px;
@@ -250,7 +248,7 @@ i.redes:hover {
   /* border: 1px solid black; */
 }
 
-.about .about-content .skills .skill-item {
+.skills .skill-item {
   margin-bottom: 25px;
 }
 
@@ -264,7 +262,7 @@ i.redes:hover {
   border-right: 1px solid #0a4fb7;
 }
 
-.about .about-content .skills .skill-item .skill-percent {
+ .skill-percent {
   position: absolute;
   right: 0;
   color: crimson;
@@ -273,46 +271,44 @@ i.redes:hover {
   line-height: 40px;
 }
 
-.about .about-content .education,
-.about .about-content .experience {
+/* .experience {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
-}
+} */
 
-.about .about-content h3.tittle {
+ h3.tittle {
   font-size: 24px;
   margin-bottom: 30px;
   font-weight: 700;
   color: var(--text-black-900);
 }
 
-.about .about-content .timeline-box {
+ /* .timeline-box {
   flex: 0 0 100%;
   max-width: 100%;
-}
+} */
 
-.about .about-content .timeline {
+ .timeline {
   background-color: var(--bg-black-100);
   padding: 30px 15px;
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
   width: 100%;
-
   position: relative;
 }
 
-.about .about-content .timeline .timeline-item {
+.timeline .timeline-item {
   position: relative;
   padding-left: 37px;
   padding-bottom: 50px;
 }
 
-.about .about-content .timeline .timeline-item:last-child {
+ .timeline .timeline-item:last-child {
   padding-bottom: 0;
 }
 
-.about .about-content .timeline .timeline-item:before {
+ .timeline .timeline-item:before {
   content: "";
   width: 1px;
   position: absolute;
@@ -322,7 +318,7 @@ i.redes:hover {
   background-color: #337ff1;
 }
 
-.about .about-content .timeline .circle-dot {
+ .timeline .circle-dot {
   position: absolute;
   left: 0;
   top: 0;
@@ -332,18 +328,18 @@ i.redes:hover {
   background: #337ff1;
 }
 
-.about .about-content .timeline .timeline-date {
+ .timeline .timeline-date {
   font-weight: 400;
   font-size: 14px;
   margin-bottom: 12px;
   color: var(--text-black-700);
 }
 
-.about .about-content .timeline .timeline-date .fa {
+ .timeline .timeline-date .fa {
   margin-right: 5px;
 }
 
-.about .about-content .timeline .timeline-title {
+ .timeline .timeline-title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
@@ -351,7 +347,7 @@ i.redes:hover {
   color: var(--text-black-900);
 }
 
-.about .about-content .timeline .timeline-text {
+.timeline .timeline-text {
   line-height: 25px;
   font-size: 16px;
   text-align: justify;
@@ -360,9 +356,7 @@ i.redes:hover {
 
 /* About END*/
 
-section.sectionTrhee {
-  margin-top: var(--mt-7);
-}
+
 
 .btns {
   background-color: #337ff1;
