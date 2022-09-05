@@ -11,6 +11,8 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { MasInfoComponent } from './componentes/mas-info/mas-info.component';
 import { HttpClientModule } from '@angular/common/http';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { EduExpWrapComponent } from './componentes/edu-exp-wrap/edu-exp-wrap.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
     PortfolioComponent,
     ExperienciaComponent,
     AptitudesComponent,
-    MasInfoComponent
+    MasInfoComponent,
+    EducacionComponent,
+    EduExpWrapComponent
   ],
   imports: [
     BrowserModule,

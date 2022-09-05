@@ -1,0 +1,27 @@
+<div class="education ">
+    <h2 class="tittle text-center">Educación</h2>
+    <div class="row">
+      <div class="timeline-box padd-15">
+        <div class="timeline shadow-dark">
+          <!-- === TimeLine item ===-->
+          <div class="timeline-item" *ngFor="let education of educacionList">
+            <div class="circle-dot"></div>
+            <h3 class="timeline-date">
+              <i class="fa fa-calendar"></i> {{education.dateIn}} - {{education.dateOut}}
+            </h3>
+            <img
+              [src]="education.img"
+              class="mb-2 expCiu rounded"
+              alt=""
+            />
+            <h4 class="timeline-title">{{education.title}}</h4>
+            <p class="timeline-text">
+              Expedición: {{education.expedition}} · Sin fecha de vencimiento.
+            </p>
+            <p class="timeline-text">ID de la credencial xxxxx</p>
+            <a href={{education.certification}} target="_blank">Link al Certificado</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

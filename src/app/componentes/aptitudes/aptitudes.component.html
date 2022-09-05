@@ -1,78 +1,17 @@
-<div class="skills container padd-15 col-12 row d-flex align-items-center justify-content-center aptitudes">
-  <h2 class="tittle mb-3 text-center mt-3">Aptitudes y Herramientas</h2>
-  <div class="row col-5 firstColumn">
-      <div class="skill-item padd-15">
-        <h5>HTML: 100%</h5>
+<div class="container">
+  <h2 class="tittle mb-3 text-center mt-2">Aptitudes y Herramientas</h2>
+<div class="skills container padd-15 col-12 row d-flex align-items-center justify-content-center aptitudes mt-3">
+  
+  <div class="row col-12 container">
+
+      <div class="skill-item col-3 padd-15"*ngFor="let aptitudes of aptitudesList">
+        <h5>{{aptitudes.name}}: {{aptitudes.amount}}%</h5>
         <div class="progress">
-          <div class="progress-in" style="width: 100%"></div>
+          <div class="progress-in" style="width:{{aptitudes.amount}}%"></div>
           <!-- <div class="skill-percent">95%</div> -->
-        </div>
-      </div>
-      <div class="skill-item padd-15">
-        <h5>CSS: 90%</h5>
-        <div class="progress">
-          <div class="progress-in" style="width: 90%"></div>
-          <!-- <div class="skill-percent">95%</div> -->
-        </div>
-      </div>
-      <div class="skill-item padd-15">
-        <h5>Bootstrap: 75%</h5>
-        <div class="progress">
-          <div class="progress-in" style="width: 75%"></div>
-          <!-- <div class="skill-percent">75%</div> -->
-        </div>
-      </div>
-      <div class="skill-item padd-15">
-        <h5>JavaScript: 50%</h5>
-        <div class="progress">
-          <div class="progress-in" style="width: 50%"></div>
-          <!-- <div class="skill-percent">50%</div> -->
-        </div>
-      </div>
-      <div class="skill-item padd-15">
-        <h5>Sass: 35%</h5>
-        <div class="progress">
-          <div class="progress-in" style="width: 35%"></div>
-          <!-- <div class="skill-percent">35%</div> -->
         </div>
       </div>
     </div>
 
-    <div class="row  col-5 secondColumn">
-        <div class="skill-item padd-15">
-          <h5>React Js: 50%</h5>
-          <div class="progress">
-            <div class="progress-in" style="width: 50%"></div>
-            <!-- <div class="skill-percent">50%</div> -->
-          </div>
-        </div>
-        <div class="skill-item padd-15">
-          <h5>Angular: 30%</h5>
-          <div class="progress">
-            <div class="progress-in" style="width: 30%"></div>
-            <!-- <div class="skill-percent">35%</div> -->
-          </div>
-        </div>
-        <div class="skill-item padd-15">
-          <h5>Firebase: 35%</h5>
-          <div class="progress">
-            <div class="progress-in" style="width: 35%"></div>
-            <!-- <div class="skill-percent">35%</div> -->
-          </div>
-        </div>
-        <div class="skill-item padd-15">
-          <h5>Github: 50%</h5>
-          <div class="progress">
-            <div class="progress-in" style="width: 50%"></div>
-            <!-- <div class="skill-percent">50%</div> -->
-          </div>
-        </div>
-         <div class="skill-item padd-15">
-          <h5>TypeScript: 25%</h5>
-          <div class="progress">
-            <div class="progress-in" style="width: 25%"></div>
-             <div class="skill-percent">25%</div> 
-          </div>
-        </div>
-      </div>
+
   </div>

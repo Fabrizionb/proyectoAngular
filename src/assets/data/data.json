@@ -9,9 +9,9 @@
             "position": "Administrativo Financiero - Presidencia",
             "company": "Acumar, Gobierno de Buenos Aires",
             "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135646/Proyecto%20Argentina%20Programa%20Angular/acumar_kh6s2d.png",
-            "dateIn": "dateIn",
-            "dateOut": "dateOut",
-            "tasks": ""
+            "dateIn": "2020",
+            "dateOut": "Presente",
+            "tasks": "Elaboración de documentación y proyectos. Ejecución de proyectos tecnológicos."
         },
         {
             "position": "Administrativo Financiero - Proyectos Especiales",
@@ -119,6 +119,27 @@
         {
             "name": "TypeScript",
             "amount": 25
+        }
+    ],
+    "portfolio": [
+        {
+            "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662393317/Proyecto%20Argentina%20Programa%20Angular/3a_nxvvhc.jpg",
+            "title":"Three Amigas",
+            "description":"Spa Ecommerce de ropa, con tienda, catalogo y carrito.",
+            "link":"https://iridescent-meringue-7d1be3.netlify.app/"
+        },
+       
+        {
+            "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135648/Proyecto%20Argentina%20Programa%20Angular/getFit_yyoqz8.jpg",
+            "title":"GetFit",
+            "description":"Simulador para calcular el peso ideal, IMC , TMB y mas.",
+            "link":"https://fabrizionb.github.io/GetFit/"
+        },
+        {
+            "image": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135649/Proyecto%20Argentina%20Programa%20Angular/rsf_jnczmc.jpg",
+            "title":"RSF",
+            "description":"Landing Page de Ecommerce industrial, dedicada a la produccion de autopartes.",
+            "link":"https://fabrizionb.github.io/Rsf-Autopartes/"
         }
     ]
 }
