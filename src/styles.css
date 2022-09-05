@@ -60,11 +60,13 @@ html {
   scroll-behavior: smooth;
   background-color: #e9ecef !important;
   
+  
 }
 
 body {
   background-color: #f5f5f5;
   font-family: "Montserrat", sans-serif!important;
+  height: 100%;
 }
 
 h1,
