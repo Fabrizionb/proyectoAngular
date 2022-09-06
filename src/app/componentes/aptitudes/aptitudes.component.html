@@ -4,7 +4,7 @@
   
   <div class="row col-12 container">
 
-      <div class="skill-item col-3 padd-15"*ngFor="let aptitudes of aptitudesList">
+      <div class="skill-item col-lg-3 col-sm-12 padd-15"*ngFor="let aptitudes of aptitudesList">
         <h5>{{aptitudes.name}}: {{aptitudes.amount}}%</h5>
         <div class="progress">
           <div class="progress-in"  style='width:{{aptitudes.amount}}%'>

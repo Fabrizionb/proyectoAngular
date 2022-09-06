@@ -381,7 +381,7 @@ img.expCiu {
   }
 
   .education {
-    display: inline !important;
+    display: block !important;
   }
 
   .experience {
