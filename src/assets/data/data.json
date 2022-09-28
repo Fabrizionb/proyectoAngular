@@ -51,11 +51,11 @@
         {
             "name": "CoderHouse",
             "img": "https://res.cloudinary.com/dm01fzgtk/image/upload/v1662135647/Proyecto%20Argentina%20Programa%20Angular/coder_rrvdyg.png",
-            "certification": "En progreso",
+            "certification": "https://www.coderhouse.com/certificados/631de7191b5ea30019ab5617",
             "title": "React Js",
             "dateIn": "2022",
             "dateOut": "2022",
-            "expedition": "En progreso"
+            "expedition": "2022"
         },
         {
             "name": "CoderHouse",
@@ -64,7 +64,7 @@
             "title": "Javascript",
             "dateIn": "2022",
             "dateOut": "2022",
-            "expedition": ""
+            "expedition": "2022"
         },
         {
             "name": "CoderHouse",
@@ -73,7 +73,7 @@
             "title": "Desarrollo Web",
             "dateIn": "2022",
             "dateOut": "2022",
-            "expedition": ""
+            "expedition": "2022"
         }
     ],
     "about": {
